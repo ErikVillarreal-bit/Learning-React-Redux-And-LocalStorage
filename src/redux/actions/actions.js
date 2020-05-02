@@ -1,0 +1,2 @@
+export const SAVE_OPETATION = 'SAVE_OPERATION';
+export const CALCULATE = 'CALCULATE';
