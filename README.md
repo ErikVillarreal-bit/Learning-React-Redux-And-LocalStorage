@@ -10,10 +10,8 @@ _Estas instrucciones te permitirán obtener una copia del proyecto en tu máquin
 
 _Herramientas que necesitas para probar el proyecto._
 
-```
-VSCode: https://code.visualstudio.com/download - Descarga desde aquí!
-Node:   https://nodejs.org/es/download/ - Descarga desde aquí!
-```
+* [VSCode](https://code.visualstudio.com/download) - Descarga desde aquí!
+* [Node](https://nodejs.org/es/download/) - Descarga desde aquí!
 
 ### Instalación 🔧
 
