@@ -18,7 +18,6 @@ function App() {
         <Navbar logout="Log Out"/>
         <Route path="/" exact component={Login} />
         <Route path="/about" exact component={About} />
-        <Route path="/register" exact component={Register} />
         <Route path="/home" exact component={Home} />
         <Footer/>
       </Router>

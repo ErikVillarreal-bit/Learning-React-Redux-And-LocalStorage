@@ -26,6 +26,9 @@ class About extends Component {
                 translation by H. Rackham.
             </p>
         </div>
+        <div className="d-flex justify-content-center mb-2">
+          <a href="/home" className="btn btn-primary">Regresar</a>
+        </div>
       </div>
     );
   }

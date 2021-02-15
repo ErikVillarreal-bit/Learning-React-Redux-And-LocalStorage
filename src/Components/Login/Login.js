@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Navbar from '../Navbar/Navbar';
 
 class Login extends Component{
     constructor(props){
@@ -25,8 +24,6 @@ class Login extends Component{
             },2000)
         }else{
             window.location = '/';
-            console.log(this.state.email);
-            console.log(this.state.password);
         }
         event.preventDefault();
     }
@@ -38,14 +35,12 @@ class Login extends Component{
                         <label >Email</label>
                         <input type="text" className="form-control" onChange={this.handleChangeEmail}/>
                     </div>
-                    <div class="form-group">
+                    <div className="form-group">
                         <label >Password</label>
                         <input type="password" className="form-control " onChange={this.handleChangePassword}/>
                     </div>
                     <input type="submit" className="btn btn-dark form-control " value="Login"/>
                     <Link to="/register" className="text-white btn btn-dark form-control mt-2">Register Now</Link>
-                    <p>{localStorage.getItem('email')}</p>
-                    <p>{localStorage.getItem('password')}</p>
                 </form>
             </div>
         );

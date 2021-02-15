@@ -44,11 +44,11 @@ class Register extends Component{
                         <label >Name</label>
                         <input type="text" className="form-control" onChange={this.handleChangeName}/>
                     </div>
-                    <div class="form-group">
+                    <div className="form-group">
                         <label >Email</label>
                         <input type="email" className="form-control "  onChange={this.handleChangeEmail}/>
                     </div>
-                    <div class="form-group">
+                    <div className="form-group">
                         <label >Password</label>
                         <input type="password" className="form-control "  onChange={this.handleChangePassword}/>
                     </div>

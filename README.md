@@ -19,7 +19,7 @@ _Para la instalación del proyecto en tu equipo primero debes descargar los arch
 ```
 cd React-Redux-LocalStorage
 npm install
-npm start
+npm run start
 ```
 
 _Una vez hecho eso se abrirá una página en tu navegador, recuerda que si te gusta puedes regalarme una estrella._ 😁
